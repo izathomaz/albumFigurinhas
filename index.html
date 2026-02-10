@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafioFigurinha</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+
+    <h1>ALBUM DE FIGURINHAS</h1>
+    
+    <div class="container">
+        <div class="esquerda">
+            <div class="addfig">
+                <h3>Adicione suas figurinhas</h3>
+                <div class="item-input">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome">
+                </div>
+                <div class="item-input">
+                    <label for="url-img">URL Image</label>
+                    <input type="text" id="url-img">
+                </div>
+
+                <button onclick="adicionar()">Colar</button>
+            </div>
+            <div class="album">
+                <div class="capa"></div>
+            </div>
+        </div>
+        <div class="figurinhas">
+            <div id="item-group" class="item-group">
+                <div class="item">
+                    <img src="img/profCafe.png" alt="">
+                    <h3>Prof.Café</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
